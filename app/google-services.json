@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1054365890473",
+    "firebase_url": "https://railsheba-c5e2c-default-rtdb.firebaseio.com",
+    "project_id": "railsheba-c5e2c",
+    "storage_bucket": "railsheba-c5e2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054365890473:android:a76c89c0f963347ffff6b8",
+        "android_client_info": {
+          "package_name": "com.example.practiserailway2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYYx2rAJEhNNAI_Jc7NWDuynHGBF1q5TU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054365890473:android:e39da7b95dff0339fff6b8",
+        "android_client_info": {
+          "package_name": "com.example.railsheba"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYYx2rAJEhNNAI_Jc7NWDuynHGBF1q5TU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

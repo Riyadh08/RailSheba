@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Rail.BD</string>
+    <string name="your_string_here"><![CDATA[This is an <u>JOURNEY DETAILS</u>.]]></string>
+    <string name="open"></string>
+    <string name="close"></string>
+    <string-array name="Train_Location">
+
+
+        <item>Select Location</item>
+        <item>Dhaka</item>
+        <item>Barishal</item>
+        <item>Khulna</item>
+        <item>Rangpur</item>
+        <item>Chittagong</item>
+        <item>Mymensingh </item>
+        <item>Rajshahi</item>
+        <item>Sylhet</item>
+
+    </string-array>
+    <string-array name="coachName">
+        <item>KA</item>
+        <item>KHA</item>
+        <item>GA</item>
+        <item>GHA</item>
+        <item>UMA</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="Station_name">
+
+
+        <item>Dhaka</item>
+        <item>Barishal</item>
+        <item>Khulna</item>
+        <item>Rangpur</item>
+        <item>Chittagong</item>
+        <item>Mymensingh </item>
+        <item>Rajshahi</item>
+        <item>Sylhet</item>
+
+    </string-array>
+    <string-array name="Numbers">
+        <item>+8801773844866</item>
+        <item>+8801718618848</item>
+        <item>+8801717284688</item>
+        <item>+8801724244410</item>
+        <item>+8801894550537</item>
+        <item>+8801750153173</item>
+        <item>+8801773844866</item>
+        <item>+8801718618848</item>
+
+    </string-array>
+
+
+</resources>
