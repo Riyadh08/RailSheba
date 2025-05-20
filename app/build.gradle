@@ -38,7 +38,10 @@ dependencies {
     implementation "androidx.cardview:cardview:1.0.0"
     implementation "androidx.navigation:navigation-fragment:2.7.0"
     implementation "androidx.navigation:navigation-ui:2.7.0"
-    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+
+    //implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+    implementation 'com.github.mhiew:android-pdf-viewer:3.2.0-beta.1'
+
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'com.google.firebase:firebase-auth:21.1.0'
@@ -47,7 +50,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-database-ktx:20.2.2'
     implementation 'com.google.firebase:firebase-storage-ktx:20.2.1'
     testImplementation 'junit:junit:4.13.2'
-    implementation 'com.github.smarteist:autoimageslider:1.4.0'
+    //implementation 'com.github.smarteist:autoimageslider:1.4.0'
+    implementation 'com.github.smarteist:Android-Image-Slider:1.4.0'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
     implementation 'com.braintreepayments:card-form:5.4.0'

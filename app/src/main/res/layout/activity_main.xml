@@ -46,9 +46,7 @@
                 android:textStyle="bold" />
 
         </LinearLayout>
-
-
-                <com.smarteist.autoimageslider.SliderView
+                    <com.smarteist.autoimageslider.SliderView
                     android:id="@+id/image_slider"
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
@@ -65,7 +63,8 @@
                     app:sliderIndicatorSelectedColor="#5A5A5A"
                     app:sliderIndicatorUnselectedColor="#FFF"
                     app:sliderScrollTimeInSec="2"
-                    app:sliderStartAutoCycle="true" />
+                    app:sliderStartAutoCycle="true"
+                    tools:ignore="MissingClass" />
 
 
                 <GridLayout

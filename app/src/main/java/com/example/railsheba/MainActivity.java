@@ -1,13 +1,5 @@
 package com.example.railsheba;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-import androidx.core.view.GravityCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
-
 import android.content.BroadcastReceiver;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -22,23 +14,14 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 
-import com.example.railsheba.AboutUs;
-import com.example.railsheba.AdminOptions;
-import com.example.railsheba.AdminPanelLogin;
-import com.example.railsheba.Broadcaster;
-import com.example.railsheba.FeedBackGet;
-import com.example.railsheba.SearchTrain;
-import com.example.railsheba.SliderAdapter;
-import com.example.railsheba.StationNumber;
-import com.example.railsheba.TicketPrice;
-import com.example.railsheba.TrainScheduleView;
-import com.example.railsheba.UserLogin;
-import com.example.railsheba.UserProfile;
-import com.example.railsheba.UserProfileShow;
-import com.example.railsheba.UserSignUp;
-import com.example.railsheba.UserTicketBookingHistory;
-import com.example.railsheba.VerifyTickets;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -202,9 +185,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     }
                 }
                 else if(id == R.id.admin){
-                        FirebaseAuth.getInstance().signOut();
-                        Intent intentadmin = new Intent(MainActivity.this, AdminPanelLogin.class);
-                        startActivity(intentadmin);
+                    FirebaseAuth.getInstance().signOut();
+                    Intent intentadmin = new Intent(MainActivity.this, AdminPanelLogin.class);
+                    startActivity(intentadmin);
                 }
 
                 return false;
